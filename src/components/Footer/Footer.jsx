@@ -115,8 +115,9 @@ const Footer = () => {
                 </ul>
             </div>
             <div className="copyright py-[20px]">
-                <div className="text-center">
-                    <p className='font-sans text-white text-[14px] md:text-[20px] mt-3'>2024 – Bhaooinc – All Rights Reserved</p>
+                <div className="text-center flex justify-evenly items-center ">
+                    <p className='font-sans text-white text-[14px] md:text-[20px] '>2024 – Bhaooinc – All Rights Reserved</p>
+                    <p><Link href="/privacy-policy" className="font-sans text-white text-[14px] md:text-[20px] ">Privacy Policy </Link></p>
                 </div>
             </div>
         </section>
