@@ -56,62 +56,7 @@ const Footer = () => {
                             </span>
                         </a>
                     </li>
-                    <li>
-                        <a href="tel:8335006007" className='text-[11px] xl:text-[13px] 2xl:text-[16px] font-sans text-white capitalize text-center flex flex-col items-center justify-center'>
-                            Bitswits
-                            <span className='block'>
-                                (833) 500-6007
-                            </span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="tel:8889008007" className='text-[11px] xl:text-[13px] 2xl:text-[16px] font-sans text-white capitalize text-center flex flex-col items-center justify-center'>
-                            Nftkreator
-                            <span className='block'>
-                                (888) 900-8007
-                            </span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="tel:8338000083" className='text-[11px] xl:text-[13px] 2xl:text-[16px] font-sans text-white capitalize text-center flex flex-col items-center justify-center'>
-                            Seo Results Pro
-                            <span className='block'>
-                                (833) 800-0083
-                            </span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="tel:3462992221" className='text-[11px] xl:text-[13px] 2xl:text-[16px] font-sans text-white capitalize text-center flex flex-col items-center justify-center'>
-                            Leadz Experts
-                            <span className='block'>
-                                (346) 299-2221
-                            </span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="tel:8007819093" className='text-[11px] xl:text-[13px] 2xl:text-[16px] font-sans text-white capitalize text-center flex flex-col items-center justify-center'>
-                            Best Selling Publisher
-                            <span className='block'>
-                                (800) 781-9093
-                            </span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="tel:8336666689" className='text-[11px] xl:text-[13px] 2xl:text-[16px] font-sans text-white capitalize text-center flex flex-col items-center justify-center'>
-                            Infinity Animations
-                            <span className='block'>
-                                (833) 666-6689
-                            </span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="tel:8336666684" className='text-[11px] xl:text-[13px] 2xl:text-[16px] font-sans text-white capitalize text-center flex flex-col items-center justify-center'>
-                            Explainer Videos LLC
-                            <span className='block'>
-                                (833) 666 6684
-                            </span>
-                        </a>
-                    </li>
+                    
                 </ul>
             </div>
             <div className="copyright py-[20px]">
