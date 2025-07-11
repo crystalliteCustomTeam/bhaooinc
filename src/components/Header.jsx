@@ -1,7 +1,7 @@
 "use client"
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import Logo from "media/logo.svg"
+import Logo from "media/logo.png"
 const Header = () => {
     const [openIndex, setOpenIndex] = useState(false);
     useEffect(() => {
