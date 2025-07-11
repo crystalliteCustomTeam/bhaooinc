@@ -18,7 +18,7 @@ const Header = () => {
                     <div className="grid grid-cols-12 items-center text-white">
                         <div className="xl:col-span-5 lg:col-span-4 col-span-3">
                             <a href="/">
-                                <Image src={Logo} alt="logo-mini-inverstment" width={95} />
+                                <Image src={Logo} alt="logo-mini-inverstment" width={65} />
                             </a>
                         </div>
                         <div className="xl:col-span-7 lg:col-span-8 col-span-9">
