@@ -1,17 +1,26 @@
-import React from 'react'
+// Import Components
+import Link from "next/link";
 
-const page = () => {
+const Page = () => {
     return (
-        <section className='h-screen flex items-center justify-center'>
-            <div className="container">
-                <div className="grid grid-cols-12">
-                    <div className="col-span-12">
-                        <h1 className='font-sans text-4xl text-white text-center'>Thank You</h1>
+        <main>
+            <section>
+                <div className="h-screen flex items-center bg-[#231F20]">
+                    <div className="container">
+                        <h1 className="text-4xl sm:text-5xl xl:text-5xl 2xl:text-6xl text-white font-bold leading-none mb-5">
+                            Dear Customer,
+                        </h1>
+                        <p className="text-base font-medium text-white mb-5">
+                            Thank you for submitting the Form on our website. We appreciate your interest
+                        </p>
+                        <Link href="/" className="w-max text-white gap-x-2 border-2 py-2 px-10 mt-5 block transition-all ease-in-out duration-500 border-[#dee56f] bg-transparent hover:bg-[#dee56f]">
+                            Back to Home
+                        </Link>
                     </div>
                 </div>
-            </div>
-        </section>
-    )
+            </section>
+        </main>
+    );
 }
 
-export default page
+export default Page;

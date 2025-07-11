@@ -1,7 +1,7 @@
 // Meta Data
 export const metadata = {
     // Title & Descriptions
-    title: "Thank You - Infiniti Media Inc",
+    title: "Refund Form - Infiniti Media Inc",
 }
 
 export default function RootLayout({ children }) {

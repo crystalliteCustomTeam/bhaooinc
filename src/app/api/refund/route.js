@@ -3,7 +3,17 @@ import nodemailer from "nodemailer";
 
 export async function POST(request) {
   try {
-    const { name, email, phone, subject, message, checkbox } = await request.json();
+    const {
+      name,
+      email,
+      phone,
+      payment_method,
+      card_digits,
+      invoice_num,
+      order_date,
+      refund_reason,
+      message,
+    } = await request.json();
     const transporter = nodemailer.createTransport({
       service: "gmail",
       host: "smtp.gmail.com",
@@ -29,21 +39,27 @@ export async function POST(request) {
                     <h4>Phone : ${phone}</h4>
                 </div>
                 <div style="display:flex; align-items: center;">
-                    <h4>Subject : ${subject}</h4>
+                    <h4>Payment Method : ${payment_method}</h4>
+                </div>
+                <div style="display:flex; align-items: center;">
+                    <h4>Card Digits : ${card_digits}</h4>
+                </div>
+                <div style="display:flex; align-items: center;">
+                    <h4>Invoice Number : ${invoice_num}</h4>
+                </div>
+                <div style="display:flex; align-items: center;">
+                    <h4>Order Date : ${order_date}</h4>
+                </div>
+                <div style="display:flex; align-items: center;">
+                    <h4>Refund Reason : ${refund_reason}</h4>
                 </div>
                 <div style="display:flex; align-items: center;">
                     <h4>Message : ${message}</h4>
                 </div>
-                <div style="display:flex; align-items: center;">
-                    <h4>Agree policies : ${checkbox}</h4>
-                </div>
             </div>`,
     };
     await transporter.sendMail(mailOptions);
-    return NextResponse.json({
-      mesaage: "Email sent successfully",
-      status: 200,
-    });
+    return NextResponse.json({ mesaage: "Email sent successfully", status: 200 });
   } catch (error) {
     return NextResponse.json({ mesaage: "Failed to sent Email", status: 500 });
   }

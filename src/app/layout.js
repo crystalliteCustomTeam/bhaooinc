@@ -1,39 +1,30 @@
-// fonts
-import { Footer, Header } from "@/components";
-import { fontSans } from "./fonts"
-// css
-import "./globals.css";
-//
-import { cn } from "@/lib/utils"
+import { Poppins } from "next/font/google"
+import "./globals.css"
+import { Footer, Header } from "../components/index"
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+})
 
 export const metadata = {
-  title: "Bhaoo INC - Empowering Your Digital Transformation Journey",
-  description: "Bhaoo INC - Empowering Your Digital Transformation Journey",
-  robots: {
-    index: false,
-    follow: false,
-    nocache: true,
-    googleBot: {
-      index: false,
-      follow: false,
-      noimageindex: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    }
-  }
-};
+  title: "Infiniti Media INC - Home",
+  other: {
+    "google-site-verification": "ujrRyYLmMXYg62fF_So99XjDyDCQZZ1VE_6n5ywDF38",
+  },
+}
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={cn("scroll-smooth", fontSans.variable)}>
-        <Header />
-        <main className="relative z-0">
+      <body className={poppins.className}>
+        <main>
+          <Header />
           {children}
+          <Footer />
         </main>
-        <Footer />
       </body>
+      <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=6ece006c"></script>
     </html>
-  );
+  )
 }

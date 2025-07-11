@@ -1,26 +1,15 @@
-// Next
 import dynamic from "next/dynamic"
-const Header = dynamic(() => import("./Header/Header"))
-const Banner = dynamic(() => import("./Banner/Banner"))
-const Partners = dynamic(() => import("./Partners/Partners"))
-const PartnersSlider = dynamic(() => import("./Partners/PartnersSlider"))
-const VisionStatement = dynamic(() => import("./VisionStatement/VisionStatement"))
-const Brands = dynamic(() => import("./Brands/Brands"))
-const TechTeams = dynamic(() => import("./TechTeams/TechTeams"))
-const Contact = dynamic(() => import("./Contact/Contact"))
-const Footer = dynamic(() => import("./Footer/Footer"))
-const AutoScrollSlider = dynamic(() => import("./AutoScrollSlider"))
-
-
+const Header = dynamic(() => import("./Header"));
+const Video = dynamic(() => import("./Video"));
+const CounterAnimation = dynamic(() => import("./CounterAnimation"));
+const Contact = dynamic(() => import("./Contact"));
+const Card = dynamic(() => import("./Card"));
+const Footer = dynamic(() => import("./Footer"));
 export {
     Header,
-    Banner,
-    Partners,
-    PartnersSlider,
-    AutoScrollSlider,
-    VisionStatement,
-    Brands,
-    TechTeams,
+    Video,
+    CounterAnimation,
     Contact,
+    Card,
     Footer
 }
