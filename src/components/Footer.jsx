@@ -101,7 +101,7 @@ const Footer = () => {
                       <path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path>
                     </svg>
                   </span>
-                  9518 Mykawa Rd Houston, TX 77048-1313 United States</li>
+                 9518 Mykawa Rd Houston, TX 77048-1313 United States</li>
                 <li className="flex items-center gap-x-2">
                   <span className="block">
                     <svg
@@ -198,7 +198,7 @@ const Footer = () => {
                 <span className="block">+1 213-451-7575</span>
               </a>
               <a
-                href="mailto:info@Infinitimediainc.com"
+                href="mailto:info@bhaooinc.com"
                 className="flex items-center gap-x-2 text-[13px] leading-tight font-light"
               >
                 <span className="block">
@@ -214,7 +214,7 @@ const Footer = () => {
                     <path d="M444.52 3.52L28.74 195.42c-47.97 22.39-31.98 92.75 19.19 92.75h175.91v175.91c0 51.17 70.36 67.17 92.75 19.19l191.9-415.78c15.99-38.39-25.59-79.97-63.97-63.97z"></path>
                   </svg>
                 </span>
-                <span className="block">info@Infinitimediainc.com</span>
+                <span className="block">info@bhaooinc.com</span>
               </a>
               {/* <a
                 href="https://g.co/kgs/AWxFQ7f"
