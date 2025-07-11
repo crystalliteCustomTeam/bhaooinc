@@ -36,11 +36,11 @@ const Header = () => {
                                 ].map(([link, text], i) => (
                                     <a key={i} href={link} onClick={() => setOpenIndex(false)} className="relative w-max overflow-hidden hover:overflow-visible group block md:mb-0 mb-5">
                                         <span>{text}</span>
-                                        <span className="block w-0 rounded-full transition-all ease-in-out duration-500 absolute group-hover:w-full group-hover:translate-x-0 group-hover:translate-y-0 translate-y-4 translate-x-28 h-[5px] bg-[#dee56f]"></span>
+                                        <span className="block w-0 rounded-full transition-all ease-in-out duration-500 absolute group-hover:w-full group-hover:translate-x-0 group-hover:translate-y-0 translate-y-4 translate-x-28 h-[5px] bg-[#374af0]"></span>
                                     </a>
                                 ))
                                 }
-                                <a href="tel:+12134517575" className="flex items-center w-max gap-x-2 border-2 py-2 px-5 transition-all ease-in-out duration-500 border-[#dee56f] bg-transparent __animatedPing hover:bg-[#dee56f]">
+                                <a href="tel:+12134517575" className="flex items-center w-max gap-x-2 border-2 py-2 px-5 transition-all ease-in-out duration-500 border-[#374af0] bg-transparent __animatedPing hover:bg-[#374af0]">
                                     <span>
                                         <svg aria-hidden="true" width={14} height={14} fill="white" className="e-font-icon-svg e-fas-phone-alt" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0 0 0 122.6.61l-104 24A24 24 0 0 0 0 48c0 256.5 207.9 464 464 464a24 24 0 0 0 23.4-18.6l24-104a24.29 24.29 0 0 0-14.01-27.6z"></path></svg>
                                     </span>

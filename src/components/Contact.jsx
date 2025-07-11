@@ -100,7 +100,7 @@ const Contact = () => {
             id="name"
             value={data.name}
             onChange={handleDataChange}
-            className="bg-[#262626] rounded-xl py-4 px-4 block w-full mb-4 text-white outline-none placeholder:text-[#8F8F8F] text-[15px] font-normal leading-tight focus-visible:outline-none focus-visible:outline-[#dee56f] focus-visible:outline-1 border border-[#69727d] focus-visible:border-transparent transition-all duration-500 ease-in-out"
+            className="bg-[#262626] rounded-xl py-4 px-4 block w-full mb-4 text-white outline-none placeholder:text-[#8F8F8F] text-[15px] font-normal leading-tight focus-visible:outline-none focus-visible:outline-[#374af0] focus-visible:outline-1 border border-[#69727d] focus-visible:border-transparent transition-all duration-500 ease-in-out"
           />
           {errors.name && (
             <span className="text-[12px] block p-2 font-medium text-red-500">
@@ -117,7 +117,7 @@ const Contact = () => {
             id="email"
             value={data.email}
             onChange={handleDataChange}
-            className="bg-[#262626] rounded-xl py-4 px-4 block w-full mb-4 text-white outline-none placeholder:text-[#8F8F8F] text-[15px] font-normal leading-tight focus-visible:outline-none focus-visible:outline-[#dee56f] focus-visible:outline-1 border border-[#69727d] focus-visible:border-transparent transition-all duration-500 ease-in-out"
+            className="bg-[#262626] rounded-xl py-4 px-4 block w-full mb-4 text-white outline-none placeholder:text-[#8F8F8F] text-[15px] font-normal leading-tight focus-visible:outline-none focus-visible:outline-[#374af0] focus-visible:outline-1 border border-[#69727d] focus-visible:border-transparent transition-all duration-500 ease-in-out"
           />
           {errors.email && (
             <span className="text-[12px] block p-2 font-medium text-red-500">
@@ -136,7 +136,7 @@ const Contact = () => {
             id="phone"
             value={data.phone}
             onChange={handleDataChange}
-            className="bg-[#262626] rounded-xl py-4 px-4 block w-full mb-4 text-white outline-none placeholder:text-[#8F8F8F] text-[15px] font-normal leading-tight focus-visible:outline-none focus-visible:outline-[#dee56f] focus-visible:outline-1 border border-[#69727d] focus-visible:border-transparent transition-all duration-500 ease-in-out"
+            className="bg-[#262626] rounded-xl py-4 px-4 block w-full mb-4 text-white outline-none placeholder:text-[#8F8F8F] text-[15px] font-normal leading-tight focus-visible:outline-none focus-visible:outline-[#374af0] focus-visible:outline-1 border border-[#69727d] focus-visible:border-transparent transition-all duration-500 ease-in-out"
           />
           {errors.phone && (
             <span className="text-[12px] block p-2 font-medium text-red-500">
@@ -153,7 +153,7 @@ const Contact = () => {
             id="subject"
             value={data.subject}
             onChange={handleDataChange}
-            className="bg-[#262626] rounded-xl py-4 px-4 block w-full mb-4 text-white outline-none placeholder:text-[#8F8F8F] text-[15px] font-normal leading-tight focus-visible:outline-none focus-visible:outline-[#dee56f] focus-visible:outline-1 border border-[#69727d] focus-visible:border-transparent transition-all duration-500 ease-in-out"
+            className="bg-[#262626] rounded-xl py-4 px-4 block w-full mb-4 text-white outline-none placeholder:text-[#8F8F8F] text-[15px] font-normal leading-tight focus-visible:outline-none focus-visible:outline-[#374af0] focus-visible:outline-1 border border-[#69727d] focus-visible:border-transparent transition-all duration-500 ease-in-out"
           />
           {errors.subject && (
             <span className="text-[12px] block p-2 font-medium text-red-500">
@@ -169,7 +169,7 @@ const Contact = () => {
         placeholder="Message"
         value={data.message}
         onChange={handleDataChange}
-        className="bg-[#262626] rounded-xl py-4 px-4 block w-full mb-4 text-white outline-none placeholder:text-[#8F8F8F] text-[15px] font-normal leading-tight focus-visible:outline-none focus-visible:outline-[#dee56f] focus-visible:outline-1 border border-[#69727d] focus-visible:border-transparent transition-all duration-500 ease-in-out resize-none h-36"
+        className="bg-[#262626] rounded-xl py-4 px-4 block w-full mb-4 text-white outline-none placeholder:text-[#8F8F8F] text-[15px] font-normal leading-tight focus-visible:outline-none focus-visible:outline-[#374af0] focus-visible:outline-1 border border-[#69727d] focus-visible:border-transparent transition-all duration-500 ease-in-out resize-none h-36"
       ></textarea>
       <div className="flex items-start flex-wrap gap-2.5 mb-4">
         <input
@@ -190,7 +190,7 @@ const Contact = () => {
         </p>
       </div>
       <button
-        className="bg-[#dee56f] __animatedPing block w-full text-white rounded-xl py-4 px-4 text-[15px] font-medium leading-tight"
+        className="bg-[#374af0] __animatedPing block w-full text-white rounded-xl py-4 px-4 text-[15px] font-medium leading-tight"
         onClick={handleFormSubmit}
         disabled={isDisabled}
       >

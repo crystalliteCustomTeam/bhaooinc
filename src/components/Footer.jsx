@@ -74,7 +74,7 @@ const Footer = () => {
         <div className="container">
           <div className="grid grid-cols-12 lg:gap-x-10 gap-5 border-y border-white pt-5 pb-[50px]">
             <div className="xl:col-span-5 lg:col-span-4 sm:col-span-6 col-span-12">
-              <h4 className="md:text-[30px] text-xl leading-normal font-semibold mb-3 text-[#dee56f]">
+              <h4 className="md:text-[30px] text-xl leading-normal font-semibold mb-3 text-[#374af0]">
                 About Company
               </h4>
               <p className="text-[#8F8F8F] text-sm">
@@ -83,14 +83,14 @@ const Footer = () => {
               </p>
             </div>
             <div className="xl:col-span-3 lg:col-span-4 sm:col-span-6 col-span-12">
-              <h4 className="md:text-[30px] text-xl leading-normal font-semibold mb-3 text-[#dee56f]">
+              <h4 className="md:text-[30px] text-xl leading-normal font-semibold mb-3 text-[#374af0]">
                 Locations
               </h4>
               <ul className="text-[#8F8F8F] text-sm flex flex-col gap-y-2">
                 <li className="flex items-center gap-x-2">
                   <span className="block">
                     <svg
-                      fill="#dee56f"
+                      fill="#374af0"
                       width={10}
                       height={10}
                       aria-hidden="true"
@@ -105,7 +105,7 @@ const Footer = () => {
                 <li className="flex items-center gap-x-2">
                   <span className="block">
                     <svg
-                      fill="#dee56f"
+                      fill="#374af0"
                       width={10}
                       height={10}
                       aria-hidden="true"
@@ -121,7 +121,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="lg:col-span-4 sm:col-span-6 col-span-12">
-              <h4 className="md:text-[30px] text-xl leading-normal font-semibold mb-3 text-[#dee56f]">
+              <h4 className="md:text-[30px] text-xl leading-normal font-semibold mb-3 text-[#374af0]">
                 Legals
               </h4>
               {/* <form
@@ -145,7 +145,7 @@ const Footer = () => {
                                             </span>
                                         )}
                                     </div>
-                                    <button className="basis-[30%] __animatedPing bg-[#dee56f] block w-full text-white py-3 px-4 text-[15px] font-medium leading-tight" onClick={handleFormSubmit} disabled={isDisabled}>{formStatus}</button>
+                                    <button className="basis-[30%] __animatedPing bg-[#374af0] block w-full text-white py-3 px-4 text-[15px] font-medium leading-tight" onClick={handleFormSubmit} disabled={isDisabled}>{formStatus}</button>
                                 </div>
                             </form> */}
               <ul className="text-[#8F8F8F] text-sm">
@@ -161,13 +161,13 @@ const Footer = () => {
               </ul>
             </div>
             <div className="col-span-12 sm:col-span-6">
-              <h4 className="md:text-[20px] text-lg leading-normal text-[#dee56f] font-semibold mb-3">
+              <h4 className="md:text-[20px] text-lg leading-normal text-[#374af0] font-semibold mb-3">
                 Payment Partners
               </h4>
               <Image src={partners} className="w-[214px] bg-white rounded-lg p-2" />
             </div>
             <div className="col-span-12 sm:col-span-6">
-              <h4 className="md:text-[20px] text-lg leading-normal text-[#dee56f] font-semibold mb-3 lg:text-right">
+              <h4 className="md:text-[20px] text-lg leading-normal text-[#374af0] font-semibold mb-3 lg:text-right">
                 Payment Methods
               </h4>
               <Image
@@ -184,7 +184,7 @@ const Footer = () => {
               >
                 <span className="block">
                   <svg
-                    fill="#dee56f"
+                    fill="#374af0"
                     width={10}
                     height={10}
                     aria-hidden="true"
@@ -203,7 +203,7 @@ const Footer = () => {
               >
                 <span className="block">
                   <svg
-                    fill="#dee56f"
+                    fill="#374af0"
                     width={10}
                     height={10}
                     aria-hidden="true"
@@ -223,7 +223,7 @@ const Footer = () => {
               >
                 <span className="block">
                   <svg
-                    fill="#dee56f"
+                    fill="#374af0"
                     width={10}
                     height={10}
                     aria-hidden="true"
@@ -239,7 +239,7 @@ const Footer = () => {
             </div>
             <div>
               <p className="text-[13px] leading-tight text-center font-light">
-                Copyright © 2025 IT-Support | Powered by Infiniti Media INC
+                Copyright © 2025 IT-Support | Powered by Bhaoo INC
               </p>
             </div>
           </div>

@@ -13,7 +13,7 @@ const PrivacyPolicy = () => {
                 Commitment to Privacy
               </h2>
               <p>
-                Infiniti Media INC is highly committed to keeping client’s
+                Bhaoo INC is highly committed to keeping client’s
                 personal information safe and secure and we collect only
                 essential and inevitable information to process your order. We
                 never share any of your information with any individual outside
@@ -29,7 +29,7 @@ const PrivacyPolicy = () => {
               <p>
                 We collect clients’ information via Email, Phone and Contact Us
                 and Order Form and it is protected as per privacy policy set by
-                Infiniti Media INC. Clients’ information is never disclosed,
+                Bhaoo INC. Clients’ information is never disclosed,
                 shared or sold to any third party services
               </p>
               <p className="mt-2">
@@ -189,7 +189,7 @@ const PrivacyPolicy = () => {
               </h2>
               <p>
                 By providing your mobile number and opting in, you consent to
-                receive SMS messages from Infiniti Media Inc. These messages may
+                receive SMS messages from Bhaoo INC. These messages may
                 include:
               </p>
               <ul className="mt-2 ml-10">
@@ -203,7 +203,7 @@ const PrivacyPolicy = () => {
               <p className="mt-2">
                 Message frequency may vary. Message and data rates may apply.{" "}
                 <a
-                  className="text-[#dee56f]"
+                  className="text-[#374af0]"
                   href="https://www.textline.com/blog/sms-opt-in-message-examples?utm_source=chatgpt.com"
                   target="_blank"
                 >
@@ -289,7 +289,7 @@ const PrivacyPolicy = () => {
             <div className="mb-8">
               <h2 className="text-xl font-semibold mb-2">AMENDMENTS</h2>
               <p>
-                Infiniti Media INC may amend its privacy policy for more strict
+                Bhaoo INC may amend its privacy policy for more strict
                 security concerns if needed. However, the entire amendments
                 about personal information security concerns will be declared
                 with a prior notice of the effective date of amended or updated

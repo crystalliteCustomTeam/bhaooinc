@@ -1,7 +1,7 @@
 // Meta Data
 export const metadata = {
     // Title & Descriptions
-    title: "Privacy Policy - Infiniti Media Inc",
+    title: "Privacy Policy - Bhaoo INC",
 }
 
 export default function RootLayout({ children }) {

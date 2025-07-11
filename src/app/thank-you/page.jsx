@@ -13,7 +13,7 @@ const Page = () => {
                         <p className="text-base font-medium text-white mb-5">
                             Thank you for submitting the Form on our website. We appreciate your interest
                         </p>
-                        <Link href="/" className="w-max text-white gap-x-2 border-2 py-2 px-10 mt-5 block transition-all ease-in-out duration-500 border-[#dee56f] bg-transparent hover:bg-[#dee56f]">
+                        <Link href="/" className="w-max text-white gap-x-2 border-2 py-2 px-10 mt-5 block transition-all ease-in-out duration-500 border-[#374af0] bg-transparent hover:bg-[#374af0]">
                             Back to Home
                         </Link>
                     </div>

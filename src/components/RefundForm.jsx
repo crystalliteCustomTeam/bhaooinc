@@ -99,7 +99,7 @@ const RefundForm = () => {
                         id="name"
                         value={data.name}
                         onChange={handleDataChange}
-                        className="bg-[#262626] rounded-xl py-4 px-4 block w-full text-white outline-none placeholder:text-[#8F8F8F] text-[15px] font-normal leading-tight focus-visible:outline-none focus-visible:outline-[#dee56f] focus-visible:outline-1 border border-[#69727d] focus-visible:border-transparent transition-all duration-500 ease-in-out mb-4"
+                        className="bg-[#262626] rounded-xl py-4 px-4 block w-full text-white outline-none placeholder:text-[#8F8F8F] text-[15px] font-normal leading-tight focus-visible:outline-none focus-visible:outline-[#374af0] focus-visible:outline-1 border border-[#69727d] focus-visible:border-transparent transition-all duration-500 ease-in-out mb-4"
                     />
                     {errors.name && (
                         <span className="text-[12px] block py-2 font-medium text-red-500">
@@ -116,7 +116,7 @@ const RefundForm = () => {
                         id="email"
                         value={data.email}
                         onChange={handleDataChange}
-                        className="bg-[#262626] rounded-xl py-4 px-4 block w-full text-white outline-none placeholder:text-[#8F8F8F] text-[15px] font-normal leading-tight focus-visible:outline-none focus-visible:outline-[#dee56f] focus-visible:outline-1 border border-[#69727d] focus-visible:border-transparent transition-all duration-500 ease-in-out mb-4"
+                        className="bg-[#262626] rounded-xl py-4 px-4 block w-full text-white outline-none placeholder:text-[#8F8F8F] text-[15px] font-normal leading-tight focus-visible:outline-none focus-visible:outline-[#374af0] focus-visible:outline-1 border border-[#69727d] focus-visible:border-transparent transition-all duration-500 ease-in-out mb-4"
                     />
                     {errors.email && (
                         <span className="text-[12px] block py-2 font-medium text-red-500">
@@ -135,7 +135,7 @@ const RefundForm = () => {
                         id="phone"
                         value={data.phone}
                         onChange={handleDataChange}
-                        className="bg-[#262626] rounded-xl py-4 px-4 block w-full text-white outline-none placeholder:text-[#8F8F8F] text-[15px] font-normal leading-tight focus-visible:outline-none focus-visible:outline-[#dee56f] focus-visible:outline-1 border border-[#69727d] focus-visible:border-transparent transition-all duration-500 ease-in-out mb-4"
+                        className="bg-[#262626] rounded-xl py-4 px-4 block w-full text-white outline-none placeholder:text-[#8F8F8F] text-[15px] font-normal leading-tight focus-visible:outline-none focus-visible:outline-[#374af0] focus-visible:outline-1 border border-[#69727d] focus-visible:border-transparent transition-all duration-500 ease-in-out mb-4"
                     />
                     {errors.phone && (
                         <span className="text-[12px] block py-2 font-medium text-red-500">
@@ -149,7 +149,7 @@ const RefundForm = () => {
                         id="payment_method"
                         value={data.payment_method}
                         onChange={handleDataChange}
-                        className="bg-[#262626] rounded-xl py-4 px-4 block w-full text-white outline-none placeholder:text-[#8F8F8F] text-[15px] font-normal leading-tight focus-visible:outline-none focus-visible:outline-[#dee56f] focus-visible:outline-1 border border-[#69727d] focus-visible:border-transparent transition-all duration-500 ease-in-out appearance-none "
+                        className="bg-[#262626] rounded-xl py-4 px-4 block w-full text-white outline-none placeholder:text-[#8F8F8F] text-[15px] font-normal leading-tight focus-visible:outline-none focus-visible:outline-[#374af0] focus-visible:outline-1 border border-[#69727d] focus-visible:border-transparent transition-all duration-500 ease-in-out appearance-none "
                     >
                         <option value="" disabled>Payment Method</option>
                         <option value="Card">Card</option>
@@ -178,7 +178,7 @@ const RefundForm = () => {
                         id="card_digits"
                         value={data.card_digits}
                         onChange={handleDataChange}
-                        className="bg-[#262626] rounded-xl py-4 px-4 block w-full text-white outline-none placeholder:text-[#8F8F8F] text-[15px] font-normal leading-tight focus-visible:outline-none focus-visible:outline-[#dee56f] focus-visible:outline-1 border border-[#69727d] focus-visible:border-transparent transition-all duration-500 ease-in-out mb-4"
+                        className="bg-[#262626] rounded-xl py-4 px-4 block w-full text-white outline-none placeholder:text-[#8F8F8F] text-[15px] font-normal leading-tight focus-visible:outline-none focus-visible:outline-[#374af0] focus-visible:outline-1 border border-[#69727d] focus-visible:border-transparent transition-all duration-500 ease-in-out mb-4"
                     />
                 </div>
                 <div>
@@ -190,7 +190,7 @@ const RefundForm = () => {
                         id="invoice_num"
                         value={data.invoice_num}
                         onChange={handleDataChange}
-                        className="bg-[#262626] rounded-xl py-4 px-4 block w-full text-white outline-none placeholder:text-[#8F8F8F] text-[15px] font-normal leading-tight focus-visible:outline-none focus-visible:outline-[#dee56f] focus-visible:outline-1 border border-[#69727d] focus-visible:border-transparent transition-all duration-500 ease-in-out mb-4"
+                        className="bg-[#262626] rounded-xl py-4 px-4 block w-full text-white outline-none placeholder:text-[#8F8F8F] text-[15px] font-normal leading-tight focus-visible:outline-none focus-visible:outline-[#374af0] focus-visible:outline-1 border border-[#69727d] focus-visible:border-transparent transition-all duration-500 ease-in-out mb-4"
                     />
                 </div>
             </div>
@@ -204,7 +204,7 @@ const RefundForm = () => {
                         id="order_date"
                         value={data.order_date}
                         onChange={handleDataChange}
-                        className="bg-[#262626] rounded-xl py-4 px-4 block w-full mb-4 text-white outline-none placeholder:text-[#8F8F8F] text-[15px] font-normal leading-tight focus-visible:outline-none focus-visible:outline-[#dee56f] focus-visible:outline-1 border border-[#69727d] focus-visible:border-transparent transition-all duration-500 ease-in-out"
+                        className="bg-[#262626] rounded-xl py-4 px-4 block w-full mb-4 text-white outline-none placeholder:text-[#8F8F8F] text-[15px] font-normal leading-tight focus-visible:outline-none focus-visible:outline-[#374af0] focus-visible:outline-1 border border-[#69727d] focus-visible:border-transparent transition-all duration-500 ease-in-out"
                     />
                 </div>
                 <div className="relative mb-4">
@@ -213,7 +213,7 @@ const RefundForm = () => {
                         id="refund_reason"
                         value={data.refund_reason}
                         onChange={handleDataChange}
-                        className="bg-[#262626] rounded-xl py-4 px-4 block w-full text-white outline-none placeholder:text-[#8F8F8F] text-[15px] font-normal leading-tight focus-visible:outline-none focus-visible:outline-[#dee56f] focus-visible:outline-1 border border-[#69727d] focus-visible:border-transparent transition-all duration-500 ease-in-out appearance-none "
+                        className="bg-[#262626] rounded-xl py-4 px-4 block w-full text-white outline-none placeholder:text-[#8F8F8F] text-[15px] font-normal leading-tight focus-visible:outline-none focus-visible:outline-[#374af0] focus-visible:outline-1 border border-[#69727d] focus-visible:border-transparent transition-all duration-500 ease-in-out appearance-none "
                     >
                         <option value="" disabled>Refund Reason</option>
                         <option value="Pre-delivery refund">Pre-delivery refund</option>
@@ -235,9 +235,9 @@ const RefundForm = () => {
                 placeholder="Message"
                 value={data.message}
                 onChange={handleDataChange}
-                className="bg-[#262626] rounded-xl py-4 px-4 block w-full mb-4 text-white outline-none placeholder:text-[#8F8F8F] text-[15px] font-normal leading-tight focus-visible:outline-none focus-visible:outline-[#dee56f] focus-visible:outline-1 border border-[#69727d] focus-visible:border-transparent transition-all duration-500 ease-in-out resize-none h-36"></textarea>
+                className="bg-[#262626] rounded-xl py-4 px-4 block w-full mb-4 text-white outline-none placeholder:text-[#8F8F8F] text-[15px] font-normal leading-tight focus-visible:outline-none focus-visible:outline-[#374af0] focus-visible:outline-1 border border-[#69727d] focus-visible:border-transparent transition-all duration-500 ease-in-out resize-none h-36"></textarea>
             <p className="text-white text-[12px] mb-4">By submitting this form, you acknowledge that you have read and understood our Refund Policy and agree to the terms stated above.</p>
-            <button className="bg-[#dee56f] __animatedPing block w-full text-white rounded-xl py-4 px-4 text-[15px] font-medium leading-tight" onClick={handleFormSubmit} disabled={isDisabled}>{formStatus}</button>
+            <button className="bg-[#374af0] __animatedPing block w-full text-white rounded-xl py-4 px-4 text-[15px] font-medium leading-tight" onClick={handleFormSubmit} disabled={isDisabled}>{formStatus}</button>
         </form>
     )
 }

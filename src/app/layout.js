@@ -8,7 +8,7 @@ const poppins = Poppins({
 })
 
 export const metadata = {
-  title: "Infiniti Media INC - Home",
+  title: "Bhaoo INC - Home",
   other: {
     "google-site-verification": "ujrRyYLmMXYg62fF_So99XjDyDCQZZ1VE_6n5ywDF38",
   },

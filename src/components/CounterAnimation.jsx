@@ -28,7 +28,7 @@ const CounterAnimation = ({ start = "0", end, duration = 2000, prefix = '' }) =>
         return () => clearInterval(counter);
     }, [start, end, duration]);
     return (
-        <h3 className="xl:text-[60px] lg:text-[50px] md:text-[40px] text-xl font-normal text-[#dee56f] md:mb-5">
+        <h3 className="xl:text-[60px] lg:text-[50px] md:text-[40px] text-xl font-normal text-[#374af0] md:mb-5">
             {formatNumber(Math.round(count))}{prefix}
         </h3>
     );
