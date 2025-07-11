@@ -37,7 +37,7 @@ const RefundPolicy = () => {
                                         Clients are expected to provide timely feedback to ensure the completion of the project. Lack of feedback may affect the project delivery and refund eligibility.
                                     </li>
                                 </ul>
-                                <p><i>*** Fill out the refund form or email it to <a href="mailto:finance@infinitimediainc.com" className="text-[#374af0]">finance@infinitimediainc.com</a>. ***</i></p>
+                                <p><i>*** Fill out the refund form or email it to <a href="mailto:finance@bhaooinc.com" className="text-[#374af0]">finance@bhaooinc.com</a>. ***</i></p>
                             </div>
                             <div className="sticky top-6 self-start">
                                 <RefundForm />
@@ -49,7 +49,7 @@ const RefundPolicy = () => {
                             <ul>
                                 <li>
                                     <strong className="text-[#374af0]">Email: </strong>
-                                    <a href="mailto:finance@infinitimediainc.com">finance@infinitimediainc.com</a>
+                                    <a href="mailto:finance@bhaooinc.com">finance@bhaooinc.com</a>
                                 </li>
                             </ul>
                         </div>
